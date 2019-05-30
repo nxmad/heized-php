@@ -1,0 +1,23 @@
+{
+  "name": "nxmad/heized-php",
+  "description": "Heized.com PHP SDK",
+  "type": "library",
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "license": "MIT",
+    "authors": [
+      {
+        "name": "Alex Balatsky",
+        "email": "balatskiy337@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Nxmad\\Heized\\": "src/"
+      }
+    },
+  "minimum-stability": "stable"
+}
